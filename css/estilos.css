@@ -63,9 +63,19 @@ body{
     background: none;
     padding:10px 20px 10px 20px;
     border-radius: 8px;
-    border: 1px solid #EDCB54;
+    border: 1px solid yellow;
     color: yellow;
 }
+.portada input{
+    margin-top: 10px;
+    color: yellow;
+    padding:10px 20px 10px 20px;
+    border-radius: 8px;
+    border: 1px solid yellow;
+    background:none;
+    outline: none;
+}
+
 /*servicios*/
 .servicio-info h2{
     text-align:center ;
