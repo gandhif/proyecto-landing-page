@@ -41,7 +41,6 @@ body{
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-    background-repeat: no-repeat;
     padding-top: 10px;
     display: grid;
     grid-template-columns: repeat(8,1fr);

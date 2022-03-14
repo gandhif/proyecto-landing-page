@@ -1,5 +1,8 @@
 @media screen and (max-width:800px){
     /*Header*/
+    body{
+        width: 100%;
+    }
     .menu-nav{
         background-color: rgb(199, 8, 8);
         display: grid;
@@ -7,7 +10,6 @@
         grid-template-rows: repeat(6,1fr);
         justify-items: end;
         max-height: 35vh;
-        width: 100vh;
         padding: 3vh 20vh 3vh 2vh;
     }
     #imagen{
@@ -28,11 +30,19 @@
         flex-direction: column;
         text-align: end;        
     }
-    .portada{
-        height: 50vh;
-        width: 100vh;
-    }
-
+    
     /*main*/
+     .portada{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(8,1fr);
+        justify-items: center;
+       
+    }
+    .info-contenido{
+        grid-column: 2/4;
+    } 
+
+
 
 }
