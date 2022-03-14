@@ -10,7 +10,7 @@ body{
     display: grid;
     grid-template-columns: repeat(8,1fr);
     align-items: center;
-    background-color: black;
+    background-color: rgb(10, 10, 10);
 }
 #imagen{
     width: 50px;
